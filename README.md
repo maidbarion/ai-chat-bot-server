@@ -8,7 +8,7 @@ This is the server for a small OpenAi chatbot I created. You can [find it here](
 
 Ensure that you create a .env file in the root directory, format is as follows...
 
-PORT=5000.
+PORT=5000\
 OPENAI_API_KEY=#
 
 If you need to create an OpenAi API key, [information is here](https://openai.com/product)
