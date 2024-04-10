@@ -6,9 +6,12 @@ This is the server for a small OpenAi chatbot I created. You can [find it here](
 
 ## Config
 
-Ensure that you create both a .env file and also .env.test file in your root directory. In both files, place the following...
+Ensure that you create a .env file in the root directory, format is as follows...
 
-REACT_APP_API_BASE_URL="http://localhost:5000/api".
+PORT=5000
+OPENAI_API_KEY=#
+
+If you need to create an OpenAi API key, [information is here](https://openai.com/product)
 
 ## Installation
 
@@ -18,20 +21,8 @@ This project has only been tested using Node v18.17.0.
 
 Install all dependencies.
 
-## Development
+## Running
 
-### `yarn start`
+### `node server.js`
 
-Start the client server (ensure the Express server is also running).
-
-### `yarn build`
-
-Build the client server without running.
-
-### `yarn eject`
-
-Eject the server.
-
-### `yarn test`
-
-Run the unit test suite.
+Start the server (that's it).
